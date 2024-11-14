@@ -1,6 +1,9 @@
 
-let valorCombustível = 5;
-let gastoMedioCombustivelKm = 0.1;
-let distancia_Km_viagem = 100;
+let valorCombustível = 5.79;
+let gastoMedioCombustivelKm = 0.120;
+let distancia_Km_viagem = 1580;
 
-console.log(distancia_Km_viagem * gastoMedioCombustivelKm / valorCombustível);
+const combustivelConsumido = distancia_Km_viagem * gastoMedioCombustivelKm;
+const valorViagem = combustivelConsumido * valorCombustível;
+
+console.log('O valor a gastar pela viagem será de ' + valorViagem.toFixed(2));
