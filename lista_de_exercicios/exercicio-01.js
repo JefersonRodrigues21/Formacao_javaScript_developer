@@ -8,9 +8,9 @@ Classificação:
     -Media acuma de 7, passou de semestre.
 */
 
-const nota1 = 7.5;
-const nota2 = 7.5;
-const nota3 = 7.5;
+const nota1 = 5;
+const nota2 = 5;
+const nota3 = 5;
 
 const media = (nota1 + nota2 + nota3) / 3;
 
