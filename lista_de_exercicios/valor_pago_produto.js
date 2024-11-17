@@ -14,11 +14,11 @@ Condição de pagamento:
     // const debito = precoEtiqueta + (precoEtiqueta * 10 /100);
 
     if (formaPagamento === 'debito') {
-        console.log('O valor a ser pago será de R$', precoEtiqueta - (precoEtiqueta * 10 / 100), 'Reais');
+        console.log('O valor a ser pago será de R$', precoEtiqueta - (precoEtiqueta * 0.1), 'Reais');
     } else if ((formaPagamento === 'dinheiro') ||(formaPagamento === 'pix')){
-        console.log('O valor a ser pago será de R$', precoEtiqueta - (precoEtiqueta * 15 / 100), 'Reais');
+        console.log('O valor a ser pago será de R$', precoEtiqueta - (precoEtiqueta * 0.15), 'Reais');
     } else if (formaPagamento === "parcelado 2x"){
         console.log('O valor a ser pago será de R$', precoEtiqueta, 'Reais');
     } else {
-        console.log('O valor a ser pago será de R$', precoEtiqueta + (precoEtiqueta * 10 / 100), 'Reais');
+        console.log('O valor a ser pago será de R$', precoEtiqueta + (precoEtiqueta * 0.1), 'Reais');
     }
