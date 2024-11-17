@@ -15,7 +15,7 @@ Condição IMC:
 const peso = 35;
 const altura = 1.5;
 
-const formula = peso / (altura * altura);
+const formula = peso / (altura * altura); // = peso / math.pow(altura, 2);
 
 console.log(formula.toFixed(2));
 
