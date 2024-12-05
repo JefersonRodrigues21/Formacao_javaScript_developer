@@ -1,11 +1,19 @@
-// ACESSANDO DINAMICAMENTE
-const pessoa= {
-    nome: 'Jeferson Rodrigues',
-    idade: 37,
+class Pessoa {
+    nome;
+    idade;
 
-    descrever: function (){
-        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade} anos`);
+    descrever() {
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     }
-};
+}
 
-console.log(pessoa['nome']);
+const vitor = new Pessoa();
+vitor.nome = 'Vitor J Guerra';
+vitor.idade = 25;
+
+const renan = new Pessoa();
+renan.nome = 'Renan J Paula';
+renan.idade = 30;
+
+vitor.descrever();
+renan.descrever();
