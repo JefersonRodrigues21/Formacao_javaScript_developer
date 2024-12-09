@@ -20,6 +20,8 @@ class Carro {
 }
 
 const etios = new Carro('Toyota', 'Preto', 1/8.5);
+const city = new Carro("Honda", "Prata", 1/9);
 
 /*console.log(etios);*/
 console.log(etios.calcularGastoDePercurso(70, 4.15));
+console.log(city.calcularGastoDePercurso(70, 4.15));
