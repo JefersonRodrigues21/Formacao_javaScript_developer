@@ -35,5 +35,5 @@ class Pessoa {
 
 const jose = new Pessoa('Jose', 100, 1.75);
 console.log(jose.classicarImc());
-const ticyane = new Pessoa("Ticyane", 60, 1.6);
+const ticyane = new Pessoa('Ticyane', 60, 1.6);
 console.log(ticyane.classicarImc());
