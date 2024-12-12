@@ -6,3 +6,4 @@ for (let i = 1; i < 11; i++) {
     console.log(numero + ' x ', i + i * numero);
 }
 
+/* Para depurar o código selecione o código com um click na linha */
