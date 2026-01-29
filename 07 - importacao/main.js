@@ -1,6 +1,6 @@
 
 
-const funcoes = require('./funcoes-auxiliares.js');
+const {gets, print} = require('./funcoes-auxiliares.js'); // Importação das funções auxiliares
 
 
-console.log(funcoes.gets());
+print(gets()); // Chamada da função print, passando como argumento o valor retornado pela função gets
